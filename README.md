@@ -47,6 +47,37 @@ After that choose the options accordingly with this image below:
 
 ![installing vuejs in terminal](./terminal.png)
 
+### Fourth Step
+
+We are using Tailwindcss and Shadcn-Vue ui library for this workshop to be save time... and also because Shadcn looks cool! 🔥
+
+So run these commands to install Tailwind Css first:
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+Then install shadcn-vue:
+
+```bash
+npx shadcn-vue@latest init
+```
+
+After that would be asked a few questions, please choose the options according to below:
+
+```bash
+Would you like to use TypeScript (recommended)? no
+Which framework are you using? Vite
+Which style would you like to use? › Default
+Which color would you like to use as base color? › Slate
+Where is your global CSS file? › › src/assets/base.css
+Do you want to use CSS variables for colors? › yes
+Where is your tailwind.config.js located? › tailwind.config.js
+Configure the import alias for components: › @/components
+Configure the import alias for utils: › @/lib/utils
+```
+
 # And.. You are ready to go !!!
 
 Hi I'm Wei Hup, GDSC Web Development Department Lead and will be your speaker for this workshop.
