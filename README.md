@@ -43,6 +43,12 @@ Then open your terminal in vscode or cmd in windows and run the command below:
 npm create vue@latest vuejs-workshop
 ```
 
+```bash
+cd vuejs-workshop
+
+npm install
+```
+
 After that choose the options accordingly with this image below:
 
 ![installing vuejs in terminal](./terminal.png)
